@@ -86,4 +86,4 @@ Se clasifica así porque el usuario le da un objetivo (generar un video con cier
 
 ## Juan José Acevedo Otálvaro
 
-Fuentes consultadas: documentación oficial de Hugging Face sobre Spaces y el Space WANMAN. ([Hugging Face][1])
+Fuentes consultadas: documentación oficial de Hugging Face sobre Spaces y el Space WANMAN.
