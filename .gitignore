@@ -1,0 +1,16 @@
+# Sistema / editores
+.DS_Store
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+
+# Semana 8: dataset descargado de internet y artefactos regenerables
+talleres/semana_08_cnn_transfer_learning/data_raw/
+talleres/semana_08_cnn_transfer_learning/dataset/
+talleres/semana_08_cnn_transfer_learning/yolo/images/
+talleres/semana_08_cnn_transfer_learning/yolo/runs/
+
+# Pesos de modelos y descargas de Keras/scikit-learn
+*.pt
+*.keras
+*.h5
