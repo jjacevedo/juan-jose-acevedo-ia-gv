@@ -1,7 +1,6 @@
 # Workshop RAG · SI3003 Inteligencia Artificial
 
 - **Nombre:** Juan José Acevedo Otálvaro
-- **Código estudiantil:** [Código Estudiantil]
 - **Usuario de GitHub:** jjacevedo
 - **Fecha:** 21 de octubre de 2026
 - **Entrega a:** jipadillab@eafit.edu.co
