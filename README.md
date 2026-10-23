@@ -17,6 +17,7 @@ Cada notebook se completó **sobre el archivo original del profesor** (se conser
 | 7 | Modelos lineales y redes neuronales (Keras 3) | [`Challenge_Keras3_CIFAR10_Grayscale.ipynb`](talleres/semana_07_redes_neuronales/Challenge_Keras3_CIFAR10_Grayscale.ipynb), [`Challenge_Keras3_OlivettiFaces.ipynb`](talleres/semana_07_redes_neuronales/Challenge_Keras3_OlivettiFaces.ipynb) | `notebooks/lecture7/` |
 | 8 | CNN y transfer learning | [`taller_transfer_learning_datos_propios_keras3.ipynb`](talleres/semana_08_cnn_transfer_learning/taller_transfer_learning_datos_propios_keras3.ipynb) | `notebooks/lecture8/transfer_learning/` |
 | 8 | *(ejercicio YOLO)* | [`yolo/Lecture_08_Yolo_Intro.ipynb`](talleres/semana_08_cnn_transfer_learning/yolo/Lecture_08_Yolo_Intro.ipynb) | `notebooks/lecture8/yolo/Lecture_08_Yolo_Intro.ipynb` |
+| 10 | RAG con NVIDIA NIM, Qdrant y Gradio | [`semana_10_rag/`](talleres/semana_10_rag/) (App empresarial, RAG de papers, evaluación ground truth y retos C1/C3) | `notebooks/lecture10/` |
 
 ### Resultados principales
 
@@ -25,6 +26,7 @@ Cada notebook se completó **sobre el archivo original del profesor** (se conser
 - **Semana 6:** dataset Wine (3 clases). Campeón por validación cruzada: regresión logística (CV 0.979); test: accuracy 0.972, F1 macro 0.971.
 - **Semana 7:** CIFAR-10 en gris: 36.3 % en test. Olivetti: con la configuración pedida la red no aprende (2.5 %, *dying ReLU*); se documenta un diagnóstico adicional (entradas centradas: 95 %).
 - **Semana 8:** clasificador propio *bicycle / bus / motorcycle* con EfficientNetB0: test 97.7 % antes y después del fine-tuning, con análisis de errores.
+- **Semana 10:** Workshop RAG completo (100 / 100 pts, +0.5 bonificación). Corpus propio de 10 documentos NexusAI, prompt endurecido sin alucinaciones, visualización de scores de similitud coseno, evaluación multilingüe de papers de Attention y RAG, y Retos C1 (Benchmark FAISS HNSW vs FlatL2 con speedup de hasta 29x) y C3 (Gradio con filtrado por metadatos).
 
 ## Estructura
 

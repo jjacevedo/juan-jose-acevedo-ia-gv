@@ -1,0 +1,92 @@
+[
+  {
+    "id": "sales_001",
+    "title": "NexusAI Cloud — Planes y Precios SaaS",
+    "content": "La plataforma NexusAI Cloud ofrece tres niveles de suscripción: Starter ($29 USD/mes por usuario), Professional ($79 USD/mes por usuario) y Enterprise ($149 USD/mes por usuario facturado anualmente). El plan Enterprise incluye instancias dedicadas, soporte 24/7 con SLA del 99.99%, retención de logs por 3 años y entrenamiento de modelos LLM personalizados en clústeres privados.",
+    "metadata": {
+      "department": "ventas",
+      "type": "pricing"
+    }
+  },
+  {
+    "id": "sales_002",
+    "title": "Política Comercial de Descuentos",
+    "content": "Los ejecutivos de cuenta pueden otorgar hasta un 12 % de descuento en contratos anuales sin autorización adicional. Descuentos entre 13 % y 25 % requieren la aprobación por escrito del Gerente Comercial. Cualquier descuento superior al 25 % debe ser autorizado formalmente por el Director Financiero (CFO) y formalizarse con un contrato mínimo de 24 meses.",
+    "metadata": {
+      "department": "ventas",
+      "type": "policy"
+    }
+  },
+  {
+    "id": "hr_001",
+    "title": "Política de Trabajo Híbrido y Remoto",
+    "content": "Los colaboradores de NexusAI pueden laborar en modalidad 100 % remota o híbrida (2 días en oficina, 3 días remotos). Quienes trabajen de forma remota reciben un auxilio mensual de conectividad de $60 USD y un presupuesto único de ergonomía de $400 USD tras completar el período de prueba de tres meses.",
+    "metadata": {
+      "department": "rrhh",
+      "type": "policy"
+    }
+  },
+  {
+    "id": "hr_002",
+    "title": "Programa de Capacitación y Certificaciones",
+    "content": "NexusAI financia hasta $1,200 USD anuales por empleado para cursos, conferencias o certificaciones técnicas (AWS, GCP, NVIDIA DLI, Cursos de IA). Para acceder al fondo, la solicitud debe radicarse en la plataforma interna con 15 días de anticipación y contar con el visto bueno del líder técnico.",
+    "metadata": {
+      "department": "rrhh",
+      "type": "benefit"
+    }
+  },
+  {
+    "id": "finance_001",
+    "title": "Política de Viáticos y Reembolsos",
+    "content": "Todos los gastos de viaje corporativo deben reportarse en los primeros 5 días hábiles posteriores al retorno. Gastos individuales de alimentación mayores a $80 USD o alojamientos superiores a $200 USD por noche requieren pre-aprobación del área financiera. Los reembolsos aprobados se consignan en la cuenta bancaria de nómina en un plazo de 3 a 5 días hábiles.",
+    "metadata": {
+      "department": "finanzas",
+      "type": "policy"
+    }
+  },
+  {
+    "id": "finance_002",
+    "title": "Control y Presupuesto de Cómputo Cloud",
+    "content": "Cada equipo de desarrollo tiene una cuota mensual asignada de $2,500 USD en créditos de infraestructura cloud. Cuando el consumo alcance el 80 %, el sistema emite una alerta automática al Tech Lead. Si se supera el 100 %, los entornos de staging que no estén en uso activo se apagan automáticamente a las 20:00 horas.",
+    "metadata": {
+      "department": "finanzas",
+      "type": "procedure"
+    }
+  },
+  {
+    "id": "eng_001",
+    "title": "Estándares de Despliegue y CI/CD",
+    "content": "Todos los cambios a producción deben pasar por el pipeline de GitHub Actions con cobertura de pruebas unitarias superior al 85 % y validación de seguridad SonarQube sin vulnerabilidades críticas. Los despliegues a producción se realizan únicamente de lunes a jueves entre las 08:00 y las 14:00 horas, requiriendo la aprobación de al menos dos revisores sénior.",
+    "metadata": {
+      "department": "ingenieria",
+      "type": "standard"
+    }
+  },
+  {
+    "id": "eng_002",
+    "title": "Acuerdos de Nivel de Servicio (SLA) y Soporte Técnico",
+    "content": "Los incidentes de severidad 1 (producción caída o pérdida de datos) tienen un tiempo de respuesta garantizado menor a 15 minutos y un objetivo de restauración menor a 2 horas. Los incidentes de severidad 2 se atienden en menos de 2 horas. Los reportes y consultas estándar de clientes tienen un tiempo de resolución máxima de 24 horas hábiles.",
+    "metadata": {
+      "department": "ingenieria",
+      "type": "sla"
+    }
+  },
+  {
+    "id": "sec_001",
+    "title": "Gestión de Secretos, API Keys y Credenciales",
+    "content": "Está estrictamente prohibido incluir API keys, tokens o certificados en repositorios de código, mensajes de Slack o archivos planos. Todas las credenciales deben gestionarse a través de HashiCorp Vault o AWS Secrets Manager. La rotación de llaves criptográficas y tokens de acceso a APIs es obligatoria cada 90 días calendario.",
+    "metadata": {
+      "department": "seguridad",
+      "type": "security_policy"
+    }
+  },
+  {
+    "id": "sec_002",
+    "title": "Protocolo de Respuesta ante Incidentes de Seguridad",
+    "content": "Ante una sospecha de filtración de datos o compromiso de credenciales, el colaborador debe notificar inmediatamente al canal interno #security-urgent y al correo secops@nexusai.io. El equipo de SecOps tiene facultad para revocar accesos y aislar instancias en menos de 10 minutos conforme a la norma ISO 27001.",
+    "metadata": {
+      "department": "seguridad",
+      "type": "incident_response"
+    }
+  }
+]
