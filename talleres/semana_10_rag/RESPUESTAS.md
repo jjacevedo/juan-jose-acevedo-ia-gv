@@ -267,9 +267,9 @@ _Mi respuesta / análisis:_
 
 | # | Pregunta Trampa | Respuesta del RAG | Clasificación |
 |---|---|---|:---:|
-| 1 | ¿Qué puntaje BLEU obtuvo el modelo Llama-3 en el benchmark WMT14 según el paper de Vaswani et al.? | El texto de Vaswani et al. (2017) no contiene información sobre el modelo Llama-3, ya que este fue desarrollado años después. Los modelos comparados en el paper son ByteNet, MoE y GNMT. | **Admite que no sabe** ✅ |
-| 2 | ¿Cuál fue la exactitud reportada para GPT-4 en Natural Questions en el artículo de RAG? | El artículo de Lewis et al. (2020) no menciona GPT-4. El modelo generador evaluado en el trabajo fue BART-large. | **Admite que no sabe** ✅ |
-| 3 | ¿Cómo incorpora el Transformer la arquitectura Mamba de State Space Models? | No cuento con esa información en los documentos proporcionados. El artículo describe mecanismos de autoatención y capas feed-forward, sin referencia a State Space Models ni Mamba. | **Admite que no sabe** ✅ |
+| 1 | ¿Qué puntaje BLEU obtuvo el modelo Llama-3 en el benchmark WMT14 según el paper de Vaswani et al.? | El texto de Vaswani et al. (2017) no contiene información sobre el modelo Llama-3, ya que este fue desarrollado años después. Los modelos comparados en el paper son ByteNet, MoE y GNMT. | **Admite que no sabe** |
+| 2 | ¿Cuál fue la exactitud reportada para GPT-4 en Natural Questions en el artículo de RAG? | El artículo de Lewis et al. (2020) no menciona GPT-4. El modelo generador evaluado en el trabajo fue BART-large. | **Admite que no sabe** |
+| 3 | ¿Cómo incorpora el Transformer la arquitectura Mamba de State Space Models? | No cuento con esa información en los documentos proporcionados. El artículo describe mecanismos de autoatención y capas feed-forward, sin referencia a State Space Models ni Mamba. | **Admite que no sabe** |
 
 * **Diagnóstico de alucinaciones:**  
   Al inspeccionar `retriever.invoke()`, las preguntas trampa generan fragmentos con score marginal ($\sim 0.18 - 0.22$) correspondientes a menciones genéricas de arquitecturas o benchmarks. Gracias al filtro de umbral ($0.25$) y a la restricción del system prompt, el modelo no recibe "material distractor" y reconoce honestamente la ausencia de información en lugar de inventar.

@@ -6,7 +6,7 @@ Repositorio personal con todos los talleres, quices, retos de código y activida
 
 ---
 
-## 📚 Índice de Entregables y Talleres
+## Índice de Entregables y Talleres
 
 Cada notebook y taller se completó **sobre el archivo original del profesor** (conservando explicaciones y celdas resueltas), se ejecutó de principio a fin y se guardó con sus salidas y justificaciones conceptuales.
 
@@ -40,7 +40,7 @@ Cada notebook y taller se completó **sobre el archivo original del profesor** (
 
 ---
 
-## 🗂️ Estructura del Repositorio
+## Estructura del Repositorio
 
 ```text
 .
@@ -67,7 +67,7 @@ Cada notebook y taller se completó **sobre el archivo original del profesor** (
 
 ---
 
-## 💻 Cómo ejecutar
+## Cómo ejecutar
 
 ```bash
 python3.12 -m venv .venv && source .venv/bin/activate
